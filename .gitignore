@@ -1,0 +1,48 @@
+# Build output (Atmel/Microchip Studio)
+Debug/
+Release/
+[Dd]ebug*/
+[Rr]elease*/
+
+# Compiled / generated files
+*.o
+*.obj
+*.elf
+*.hex
+*.eep
+*.lss
+*.lst
+*.map
+*.srec
+*.bin
+*.a
+*.d
+*.su
+*.dep
+*.i
+*.s
+
+# Studio user-specific files
+.vs/
+*.suo
+*.user
+*.cproj.user
+*.componentinfo.xml
+*.atsuo
+*.aps
+.atmel-studio/
+
+# Proteus
+*.pdsprj.*
+*.pdsclip
+Last Loaded*.bak
+Backup of*.pdsprj
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
