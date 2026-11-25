@@ -84,7 +84,7 @@ Temperature_Monitor/
 
 ## Demo
 
-
+https://github.com/user-attachments/assets/028a1c86-427f-4fc6-bc5b-5343e07d95fc
 
 ## How It Works
 
