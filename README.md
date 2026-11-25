@@ -6,6 +6,12 @@
 
 Temperature Monitor reads the ambient temperature from an LM35 analog sensor using the ATmega32's internal ADC and shows it live on a 16x2 character LCD (4-bit mode). It uses the LM35 **full-range** setup, so it can measure **negative temperatures** (-55°C to +150°C) by shifting the sensor signal up with an op-amp circuit. The code is organized in a layered architecture (MCAL / HAL / Service) with configuration headers, so drivers are reusable and hardware changes only need a config edit.
 
+> Simulated in **Proteus** and tested with a working demo.
+
+## Demo
+
+https://github.com/user-attachments/assets/028a1c86-427f-4fc6-bc5b-5343e07d95fc
+
 ## Features
 
 - Continuous temperature reading from an LM35 sensor
@@ -81,10 +87,6 @@ Temperature_Monitor/
 2. Make sure the clock is 8 MHz (fuse bits / `F_CPU`).
 3. Build, then flash the `.hex` to the MCU (or simulate in Proteus).
 4. The LCD shows the live temperature (see the demo below).
-
-## Demo
-
-https://github.com/user-attachments/assets/028a1c86-427f-4fc6-bc5b-5343e07d95fc
 
 ## How It Works
 
